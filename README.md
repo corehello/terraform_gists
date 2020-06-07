@@ -14,7 +14,7 @@ $ terraform fmt [file_path]
 ```
 
 
-## Initialize the terraform context( will install all depdent plugins/providers )
+## Initialize the terraform context( will install all dependent plugins/providers )
 ```
 $ terraform init
 ```
