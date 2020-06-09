@@ -12,7 +12,7 @@ output "local_number" {
   value = local.number
 }
 
-output "loca_bool" {
+output "local_bool" {
   value = local.bool
 }
 locals {
