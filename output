@@ -1,0 +1,377 @@
+[33m
+[1m[33mWarning: [0m[0m[1mExperimental feature "variable_validation" is active[0m
+
+[0m  on input_output_variables.tf line 4, in terraform:
+   4:   experiments = [[4mvariable_validation[0m]
+[0m
+Experimental features are subject to breaking changes in future minor or patch
+releases, based on feedback.
+
+If you have feedback on the design of this feature, please open a GitHub issue
+to discuss it.
+[0m[0m
+[0m[1m[32m
+Apply complete! Resources: 0 added, 0 changed, 0 destroyed.[0m
+[0m[1m[32m
+Outputs:
+
+abs = 12
+abspath = /home/c0rehe110/terraform_gists
+base64decode = U0dWc2JHOGdWMjl5YkdRPQ==
+base64encode = SGVsbG8gV29ybGQ=
+base64gzip = H4sIAAAAAAAA//JIzcnJVwjPL8pJAQAAAP//AQAA//9WsRdKCwAAAA==
+base64sha256 = uU0nuZNNPgilLlLX2n2r+sSE7+N6U4DukIj3rOLvzek=
+base64sho512 = MJ7MSJwS1utMxA9QyQLytNDtd+5RGnx6m808qG1M2G+YndNbxf9JlnDaNCVbRbDP2DDoH2Bdz33FVC6TrpzXbw==
+basename = f
+bcrypt = $2a$10$IrM3.5EJ2l2Euv1zVdNK5.Hl9OkM.E0g9kZ3BBH8.rk4/PEZV68SS
+bool = true
+ceil = 6
+chomp = hello
+chunklist = [
+  [
+    "a",
+    "b",
+  ],
+  [
+    "c",
+    "d",
+  ],
+  [
+    "e",
+  ],
+]
+coalesce = a
+coalescelist = [
+  "a",
+  "b",
+]
+compact = [
+  "a",
+  "b",
+  "c",
+]
+concat = [
+  "a",
+  "",
+  "c",
+  "d",
+]
+contains = true
+csvdecode = [
+  {
+    "a" = "1"
+    "b" = "2"
+    "c" = "3"
+  },
+  {
+    "a" = "4"
+    "b" = "5"
+    "c" = "6"
+  },
+]
+dirname = a/b/c/d/e
+distinct = [
+  "a",
+  "b",
+  "c",
+  "d",
+]
+element = b
+file = terraform {
+  # ~> here means verison >= 0.12, < 0.13
+  required_version = "~> 0.12"
+}
+
+filebase64 = dGVycmFmb3JtIHsKICAjIH4+IGhlcmUgbWVhbnMgdmVyaXNvbiA+PSAwLjEyLCA8IDAuMTMKICByZXF1aXJlZF92ZXJzaW9uID0gIn4+IDAuMTIiCn0K
+filebase64sha256 = jTO/gz3IhpXW/atrxyt2ZQ6lGqBY7ljhraII85Yd0DI=
+filebase64sha512 = WtJbrBeZ3+8QUA/xRyBS4nnsBYTeqkQVW71y8FAUBAm0dkBLjy+JVJ4wSI+JkQiGkHyIKUJJ+Qtgk74NLMOWqg==
+fileexists = ./terraform.tf
+filemd5 = f2b85c72bddaa072c261836015701eeb
+fileset = [
+  "collection_functions.tf",
+  "date_time_functions.tf",
+  "encoding_functions.tf",
+  "filesystem_functions.tf",
+  "hash_crypto_functions.tf",
+  "input_output_variables.tf",
+  "local_values.tf",
+  "numeric_functions.tf",
+  "string_functions.tf",
+  "terraform.tf",
+]
+filesha1 = 380acbc66c750dae3f3aea6adcee4689ecddc704
+filesha256 = 8d33bf833dc88695d6fdab6bc72b76650ea51aa058ee58e1ada208f3961dd032
+filesha512 = 5ad25bac1799dfef10500ff1472052e279ec0584deaa44155bbd72f050140409b476404b8f2f89549e30488f89910886907c88294249f90b6093be0d2cc396aa
+flatten = [
+  "a",
+  "b",
+  "c",
+]
+floor = 4
+format = %, %v - type infer, {"key":"value"}, true, 11111111, 255, 377, ff, FF, 1.234568e+09, 1.234568E+09, 123.45600000, 1.23456789e+09, 1.23456789E+09, convert to string, "this is just a test"
+formatdate = Tuesday, 02-Jan-18 23:12:01 UTC
+formatlist = [
+  "key1 => value1",
+  "key2 => value2",
+  "key3 => value3",
+]
+formatlist2 = [
+  "Hello => Alice",
+  "Hello => Bob",
+  "Hello => Eve",
+]
+indent = [
+    foo,
+    bar,
+  ]
+  
+index = 1
+join = foo, bar, baz
+jsondecode = {
+  "hello" = "world"
+}
+jsonencode = {"hello":"world"}
+keys = [
+  "a",
+  "b",
+  "c",
+]
+length = 0, 2, 1, 5
+list = [
+  "a",
+  "b",
+  "c",
+]
+list_object = [
+  {
+    "key1" = "string"
+    "key2" = 0
+    "key3" = true
+  },
+  {
+    "key1" = "string"
+    "key2" = 1
+    "key3" = false
+  },
+]
+list_string = [
+  "default_list1",
+  "default_list2",
+]
+local_bool = true
+local_list_string = [
+  "item1",
+  "item2",
+  "item3",
+]
+local_map_string = {
+  "key1" = "value1"
+  "key2" = 1
+  "key3" = false
+}
+local_number = 1
+local_object = {
+  "key1" = "aoeu"
+  "key2" = 0
+}
+local_set_string = [
+  "item1",
+  "item2",
+  "item3",
+]
+local_string = string
+log = 4
+lookup = ay
+lower = hello!
+map = {
+  "a" = "b"
+  "c" = "d"
+}
+map_string = {
+  "key1" = "value1"
+  "key2" = "2"
+  "key3" = "true"
+}
+matchkeys = [
+  "i-abc",
+  "i-def",
+]
+max = 3
+merge = {
+  "a" = "b"
+  "c" = "z"
+  "e" = "f"
+}
+min = 1
+number = 0
+parseint = 255
+pathexpand = /home/c0rehe110/.ssh/id_rsa
+power = 9
+range = [
+  [
+    0,
+    1,
+    2,
+  ],
+  [
+    1,
+    2,
+    3,
+  ],
+  [
+    1,
+    3,
+    5,
+    7,
+  ],
+  [
+    1,
+    1.7,
+    2.4,
+    3.1,
+    3.8,
+  ],
+  [
+    4,
+    3,
+    2,
+  ],
+  [
+    10,
+    8,
+    6,
+  ],
+]
+regex = {
+  "authority" = "terraform.io"
+  "scheme" = "https"
+}
+regexall = [
+  "abcd",
+  "efgh",
+]
+replace = hello everybody
+reverse = [
+  3,
+  2,
+  1,
+]
+set_string = [
+  "item1",
+  "item2",
+  "item3",
+]
+setintersection = [
+  "b",
+]
+setproduct = [
+  [
+    "development",
+    "app1",
+  ],
+  [
+    "development",
+    "app2",
+  ],
+  [
+    "staging",
+    "app1",
+  ],
+  [
+    "staging",
+    "app2",
+  ],
+  [
+    "production",
+    "app1",
+  ],
+  [
+    "production",
+    "app2",
+  ],
+]
+setsubtract = [
+  "b",
+]
+setunion = [
+  "a",
+  "b",
+  "c",
+  "d",
+]
+signum = -1
+slice = [
+  "b",
+  "c",
+]
+sort = [
+  "a",
+  "d",
+  "e",
+  "x",
+]
+split = [
+  "foo",
+  "bar",
+  "baz",
+]
+string = <sensitive>
+strrev = olleh
+substr = ello
+templatefile = backend 10.0.0.1:8080
+backend 10.0.0.2:8080
+
+timeadd = 2017-11-22T00:10:00Z
+timestamp = 2020-06-11T15:55:59Z
+title = Hello World
+transpose = {
+  "1" = [
+    "a",
+  ]
+  "2" = [
+    "a",
+    "b",
+  ]
+  "3" = [
+    "b",
+  ]
+}
+trim = hello
+trimprefix = world
+trimspace = a b c d e
+trimsuffix = hello
+tuple_string = [
+  "string",
+  0,
+  true,
+]
+upper = HELLO!
+urlencode = Hello%21%40%23%24%25%5E%26%2A%28%29%27%3C%3E%27%3A%3B%2C.+World
+values = [
+  3,
+  2,
+  1,
+]
+yamldecode = {
+  "a" = [
+    1,
+    2,
+    3,
+  ]
+  "b" = [
+    1,
+    2,
+    3,
+  ]
+}
+yamlencode = "bar": "baz"
+"foo":
+- 1
+- "a": "b"
+  "c": "d"
+- 3
+
+zipmap = {
+  "a" = 1
+  "b" = 2
+}[0m
