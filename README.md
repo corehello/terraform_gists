@@ -14,7 +14,7 @@ $ terraform fmt [file_path]
 ```
 
 
-## Initialize the terraform context( will install all dependent plugins/providers )
+## Initialize the terraform context( will initialize modules and install all dependent plugins/providers )
 ```
 $ terraform init
 ```
@@ -25,7 +25,7 @@ $ terraform validate
 ```
 
 
-## Check what changed will be applied
+## Check what changes will be applied
 ```
 $ terraform plan
 ```
